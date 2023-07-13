@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  background-color: #000000;
+  opacity: 1;
+  background-image: radial-gradient(#565656 0.55px, #000000 0.55px);
+  background-size: 11px 11px;
+  color: var(--primary-white);
+}
+
+:root {
+  --primary-black: #111;
+  --primary-white: #bbb;
+  --green: #53c28b;
+  --container-width: 1366px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: var(--container-width);
+}

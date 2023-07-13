@@ -1,0 +1,16 @@
+.button {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background-color: var(--green);
+  font-size: 1.04rem;
+}
+
+.button:hover {
+  translate: 0 -2px;
+  box-shadow: 0 0 40px var(--green);
+}
